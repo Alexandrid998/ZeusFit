@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'ZeusFit'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8B19ED9D315C422CB2E9DA6D2D5B652B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4CFDEFCE93DB4381AA0F9FB6EA9AC1F8 }}
           package: '*.jar'
