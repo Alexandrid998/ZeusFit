@@ -1,4 +1,4 @@
-package ZeusFit.example.demo;
+/*package ZeusFit.example.demo;
 
 import ZeusFit.model.*;
 import ZeusFit.repository.*;
@@ -256,3 +256,4 @@ public class UserRepositoryTest {
 
    }
 }
+*/
