@@ -22,8 +22,33 @@
 						"resource": "https://vault.azure.net"
 					}
 				}
+			},
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [
+					{
+						"activity": "Read Url-Database AKV",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "Url-DatabaseValue",
+					"value": {
+						"value": "@activity('Read Url-Database AKV').output.value",
+						"type": "Expression"
+					}
+				}
 			}
 		],
+		"variables": {
+			"Url-DatabaseValue": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
