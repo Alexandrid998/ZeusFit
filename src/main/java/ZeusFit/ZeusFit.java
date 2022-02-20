@@ -9,8 +9,6 @@ import org.springframework.context.annotation.Configuration;
 @SpringBootApplication
 
 public class ZeusFit {
-    @Value("${dbname}")
-    private String dbname;
 
 	public static void main(String[] args) {SpringApplication.run(ZeusFit.class, args);}
 
