@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://zeusfit.mysql.database.azure.com:3306/${DB-Name}?useSSL=true
-    username: zeusfit
-    password: SSDProject9
+    url: ${Url-Database}:3306/${DB-Name}?useSSL=true
+    username: ${DB-username}
+    password: ${DB-password}
   jpa:
     show-sql: true
     hibernate:
