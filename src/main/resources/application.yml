@@ -16,8 +16,8 @@ azure:
   keyvault:
     enabled: true
     uri: https://zeusfitkeyvault.vault.azure.net/
-    client-id: 6d4494a4-dbfb-467d-a903-d4d3b388857e
-    client-key: VKALF7b4PHNV9.TpIZtuKL0I9.xsw9weHp
+    client-id: 7d1a3acb-78b7-492f-8886-9039baab1365
+    client-key: ojW6ruRf-oAa.kdm6bLwaHsT8aJZ3lg4_.
     tenant-id: 2fcfe26a-bb62-46b0-b1e3-28f9da0c45fd
 
 
